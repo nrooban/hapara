@@ -1,0 +1,39 @@
+.App-header {
+  height: 52px;
+  background: #242d38;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 0 30px 0 20px;
+}
+
+.App-header .Left-panel {
+  display: flex;
+  gap: 20px;
+}
+
+.App-header .Right-panel {
+  display: flex;
+  background-color: yellow;
+}
+
+.Logo {
+  width: 20px;
+}
+
+.Content {
+  text-align: center;
+  height: calc(90vh - 52px);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
